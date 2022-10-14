@@ -1,0 +1,2 @@
+include requirements.txt
+include mongo_models/version/version.json
