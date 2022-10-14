@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from mongo_models.core import MongoModels
+
 
 BASE_DIR = Path(__file__).resolve().parent
 

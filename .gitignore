@@ -7,3 +7,5 @@ dist/
 
 tests/
 .vscode
+
+*.sh
