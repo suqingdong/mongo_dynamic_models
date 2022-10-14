@@ -3,7 +3,7 @@
 ### Installation
 
 ```bash
-python -m pip install mongo-models
+python -m pip install mongo-dynamic-models
 ```
 
 ### Usage
@@ -16,6 +16,8 @@ uri = 'mongodb://USER:PASSWORD@HOST_OR_IR:PORT/DB'
 models = MongoModels(uri)
 
 print(models.collection_names)
-
-
+print(models)
+print(models.collection_names)
+print(models.users.objects)
+print(models['users'].objects)
 ```
