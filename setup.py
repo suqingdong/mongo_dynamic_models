@@ -5,7 +5,7 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 sys.path.insert(0, '.')
-from mongo_models import version_info
+from mongo_dynamic_models import version_info
 
 BASE_DIR = Path(__file__).resolve().parent
 

@@ -9,7 +9,7 @@ python -m pip install mongo-models
 ### Usage
 
 ```python
-from mongo_models import MongoModels
+from mongo_dynamic_models import MongoModels
 
 uri = 'mongodb://USER:PASSWORD@HOST_OR_IR:PORT/DB'
 

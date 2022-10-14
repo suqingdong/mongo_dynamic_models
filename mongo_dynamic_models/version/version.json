@@ -1,8 +1,8 @@
 {
-    "prog": "mongo_models",
+    "prog": "mongo_dynamic_models",
     "desc": "generate mongo models automatically with mongoengine",
     "author": "suqingdong",
     "author_email": "suqingdong1114@gmail.com",
-    "url": "https://www.github.com/suqingdong/mongo_models",
+    "url": "https://www.github.com/suqingdong/mongo_dynamic_models",
     "version": "1.0.0"
 }

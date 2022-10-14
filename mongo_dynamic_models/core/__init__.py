@@ -7,7 +7,7 @@ from mongoengine import DynamicDocument
 class MongoModels(object):
     """
     examples:
-        >>> from mongo_models import MongoModels
+        >>> from mongo_dynamic_models import MongoModels
         >>> uri = 'mongodb://USER:PASSWORD@HOST_OR_IP:PORT/DB'
         >>> models = MongoModels(uri)
         >>> print(models)
