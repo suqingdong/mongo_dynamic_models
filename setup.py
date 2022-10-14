@@ -1,6 +1,5 @@
 # -*- encoding: utf8 -*-
 import sys
-import json
 from pathlib import Path
 from setuptools import setup, find_packages
 
